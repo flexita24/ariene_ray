@@ -269,7 +269,12 @@ header{
     color: #F1F1F1;
 }
 .stars{
-
+    position: absolute;
+    width: 109px;
+    height: 31px;
+    left: 768px;
+    top: 78px;
+    background: #2F2F2F;
 }
 .compl_projects{
     position: absolute;
@@ -430,8 +435,8 @@ color: #F1F1F1;
 }
 .icon2{
 position: absolute;
-left: 0px;
-top: 822px;
+left: 230px;
+top: 825px;
 }
 .live_preview{
 position: absolute;
@@ -654,17 +659,19 @@ color: #F1F1F1;
 }
 .testimonial{
     position: absolute;
-    width: 1109px;
+    width: 1480px;
     height: 583px;
-    left: 165px;
+    left: 0px;
     top: 3913px;
+    background: #386163;
 }
 .main{
     position: absolute;
-    width: 1109px;
+    width: 1609px;
     height: 583px;
     left: 165px;
     top: 50px;
+    background: #386163;
 }
 .heading_main{
     position: absolute;
@@ -680,16 +687,14 @@ color: #F1F1F1;
     line-height: 60px;
     text-align: center;
     color: #F1F1F1;
+    background: #386163;
 }
 .main_box1{
     position: absolute;
     width: 529px;
     height: 351px;
-    left: 0px;
+    left: 165px;
     top: 172px;
-    
-    /* #2F2F2F */
-    
     background: #2F2F2F;
     border-radius: 30px 0px 30px 30px;
 }
@@ -697,12 +702,130 @@ color: #F1F1F1;
     position: absolute;
     width: 529px;
     height: 351px;
-    left: 580px;
+    left: 750px;
     top: 172px;
-    
-    /* #2F2F2F */
-    
     background: #2F2F2F;
     border-radius: 30px 0px 30px 30px;
+}
+.main_txt{
+    position: absolute;
+    width: 419px;
+    height: 155px;
+    left: 55px;
+    top: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    background: #2F2F2F;
+    color: #F1F1F1;
+}
+.person{
+    position: absolute;
+    width: 133px;
+    height: 24px;
+    left: 123px;
+    top: 252px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    background: #2F2F2F;
+    color: #F1F1F1;
+}
+.person_job{
+    position: absolute;
+    width: 101px;
+    height: 23px;
+    left: 123px;
+    top: 276px;
+    background: #2F2F2F;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #E1E1E1;
+}
+.ronald{
+    position: absolute;
+    width: 47.92px;
+    height: 50px;
+    left: 55px;
+    top: 249px;
+    background: #2F2F2F;
+    border-radius: 46px;
+}
+.value_stars{
+    position: absolute;
+    width:136px;
+    height: 31px;
+    left:325px;
+    top: 258px;
+    background: #2F2F2F;
+    border-radius: 30px 0px 30px 30px;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 163.9px;
+    left: -1px;
+    top: 4546px;
+}
+.lets_connect{
+    position: absolute;
+    width: 242px;
+    height: 46px;
+    left: 166px;
+    top: 59px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #F1F1F1;
+}
+.insta1{
+    position: absolute;
+    left: 660px;
+    top: 73px;
+}
+.youtube1{
+    position: absolute;
+    left: 710px;
+    top: 77px;
+}
+.internet1{
+    position: absolute;
+    left: 767px;
+    top: 73px;
+}
+.to_top{
+    position: absolute;
+    width: 141px;
+    height: 36px;
+    left: 1102px;
+    top: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F1F1F1;
+}
+.short_up{
+    position: absolute;
+    top: 70px;
+    left:1252px;
 }
 
